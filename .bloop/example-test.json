@@ -1,0 +1,82 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "example-test",
+        "directory" : "/tmp/scala213",
+        "sources" : [
+            "/tmp/scala213/test"
+        ],
+        "dependencies" : [
+            "example"
+        ],
+        "classpath" : [
+            "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0-M2/scala-library-2.13.0-M2.jar",
+            "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0-M2/scala-reflect-2.13.0-M2.jar",
+            "/tmp/build-scala213/bloop/example"
+        ],
+        "out" : "/tmp/build-scala213/bloop/example-test",
+        "classesDir" : "/tmp/build-scala213/bloop/example-test",
+        "resources" : [
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.13.0-M2",
+            "options" : [
+                "-encoding",
+                "UTF-8",
+                "-unchecked",
+                "-deprecation",
+                "-Xfuture"
+            ],
+            "jars" : [
+                "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.4/jline-2.14.4.jar",
+                "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13.0-M2/1.0.6/scala-xml_2.13.0-M2-1.0.6.jar",
+                "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0-M2/scala-compiler-2.13.0-M2.jar",
+                "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0-M2/scala-library-2.13.0-M2.jar",
+                "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0-M2/scala-reflect-2.13.0-M2.jar"
+            ],
+            "analysis" : "/tmp/build-scala213/bloop/example-test/analysis.bin",
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "sbt" : {
+            "sbtVersion" : "",
+            "autoImports" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+            ]
+        }
+    }
+}

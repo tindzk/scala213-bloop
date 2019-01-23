@@ -1,0 +1,17 @@
+[project]
+scalaVersion = "2.13.0-M2"
+scalaOptions = [
+  "-encoding",
+  "UTF-8",
+  "-unchecked",
+  "-deprecation",
+  "-Xfuture"
+]
+testFrameworks = []
+
+[module.example.jvm]
+root = "jvm"
+sources = ["src"]
+
+[module.example.test.jvm]
+sources = ["test"]
